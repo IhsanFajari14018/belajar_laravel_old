@@ -47,3 +47,6 @@ Route::post('/pegawai/store','PegawaiController@store');
 // route pegawai - start since tutorial 11
 Route::get('/pegawai/edit/{id}','PegawaiController@edit');
 Route::post('/pegawai/update','PegawaiController@update');
+
+//route pegawai - start since tutorial 12
+Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
