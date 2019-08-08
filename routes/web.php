@@ -36,3 +36,6 @@ Route::post('/formulir/proses', 'PegawaiController@proses');
 Route::get('/blog', 'BlogController@home');
 Route::get('/blog/tentang', 'BlogController@tentang');
 Route::get('/blog/kontak', 'BlogController@kontak');
+
+// route pegawa - start since tutorial 9
+Route::get('/pegawai','PegawaiController@index');
