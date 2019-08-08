@@ -5,7 +5,7 @@
 </head>
 <body>
 
-  <form action="{{ action('PegawaiController@proses') }}" method="post">
+  <form action="{{ url('/formulir/proses') }}" method="post">
     <input type = "hidden" name = "_token" value = "<?php echo csrf_token() ?>">
 
     Nama :
